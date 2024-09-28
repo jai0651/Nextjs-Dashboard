@@ -3,17 +3,16 @@
 import {
   UserGroupIcon,
   HomeIcon,
-  DocumentDuplicateIcon,
+  DocumentIcon,
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import clsx from 'clsx';
-import DashboardSkeleton from '../skeletons';
- 
+import clsx from 'clsx'; 
 // ...
 const links = [
   { id: 1, href: '/home', icon: HomeIcon,name:'home' },
   { id: 2, href: '/user-group', icon:UserGroupIcon,name:'user-group' },
+  {id:3,href:'/dashboard/invoices',icon:DocumentIcon,name:'invoices'}
 ];
 
  
